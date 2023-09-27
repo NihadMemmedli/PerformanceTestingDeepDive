@@ -1,16 +1,16 @@
 # **Outline of how performance testing is typically conducted:**
 
-## 1. [**Define the Testing Environment:**](DefineTestEnvironment.md)
+## [1. Define the Testing Environment:](DefineTestEnvironment.md)
 
 **Understand the System:** Gather detailed knowledge about the hardware, software, and network configurations.
 
 **Identify Performance Acceptance Criteria:** Define the response time, throughput, and other relevant metrics that the application needs to achieve.
 
-## **2. [Identify Performance Metrics:](IdentifyPerformanceMatrix.md)**
+## [2. Identify Performance Metrics:](IdentifyPerformanceMatrix.md)
 
    Common metrics include Response Time, Throughput (number of requests per second), Concurrent Users, CPU and Memory Utilization, Error Rate, etc.
 
-## 3. [Plan and Design the Tests:](PlanAndDesignTests.md)
+## [3. Plan and Design the Tests:](PlanAndDesignTests.md)
 
    **Determine Test Scenarios:** Decide on which user actions or workflows will be simulated during the test.
 
@@ -18,13 +18,13 @@
 
 **Create Test Data:** Many tests require substantial amounts of data to be processed. Ensure you have the data sets ready.
 
-## 4. [Test Configuration:](ConfigureTestEnvironment.md)
+## [4. Test Configuration:](ConfigureTestEnvironment.md)
 
    Set up the testing environment.
 
 Ensure monitoring tools are in place to capture system behaviors.
 
-## 5. [Test Execution:](ExecuteTests.md)
+## [5. Test Execution:](ExecuteTests.md)
 
    **Baseline Test:** This is done to get a point of reference for system performance.
 
@@ -38,7 +38,7 @@ Ensure monitoring tools are in place to capture system behaviors.
 
 **Scalability Test:** Understand the software application's ability to scale up in response to increased load.
 
-## 6. [Analyze, Tune & Retest:](AnalyseAndInterpretResults.md)
+## [6. Analyze, Tune & Retest:](AnalyseAndInterpretResults.md)
 
    After running the tests, collect and analyze the results.
 
@@ -48,7 +48,7 @@ Implement necessary changes and tweaks to the system based on the findings.
 
 Retest to ensure that the changes resulted in performance improvements.
 
-## 7. [Reporting:](ReportAndReview.md)
+## [7. Reporting:](ReportAndReview.md)
 
    Create comprehensive reports detailing the test results, observations, and recommendations. Ensure the stakeholders can easily understand the findings and their implications.
 
